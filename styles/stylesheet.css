@@ -1,0 +1,27 @@
+body {
+  background-color: #DCDBD9;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  /*font-size: 1.5em;*/
+  /*background-color: #747474;*/
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  padding: .3rem 2rem;
+  /*margin-bottom: 0px;*/
+  text-align: justify;
+}
+
+fieldset legend {
+  font-size: .8rem;
+  margin: 0px;
+}
+
+fieldset {
+  /*padding: 1rem;*/
+  margin-bottom: .5rem;
+}
