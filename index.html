@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson 02 Assignment</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Lesson 2 Assignment</h1>
+    </header>
+    <p>The landscape of how content on the internet is viewed has drastically
+      diversified since the beginning of (internet) time. Devices come in all
+      shapes and sizes, and in such abundance that it is no longer good practice
+       to build for one specific platform. In the past, viewing a page on your
+       mobile device that was built for a desktop interface did not typically
+       end well. Add to that a smorgasbord of browsers for viewing sites, each
+        of which may or may not support certain HTML elements and attributes,
+         and you've got quite a challenge to be able to reach the masses of users.
+    </p>
+     <p>
+          These constraints have driven the need for flexibility built-in to
+           websites, something Responsive Web Design (RWD) was created to address.
+           The medium of what is being communicated over the internet has expanded
+           far beyond its text-centric beginnings. Things like videos, pictures,
+            and objects allow for an enriched viewing experience. The ability to
+            effectively combine these into a cohesive and appealing site requires
+            flexibility in how you create it. RWD equips programmers with tools they
+             need to increase accessibility (a11y) and readability for the websites they build.
+    </p>
+    <form class="form-for-lesson02" action="index.html" method="post">
+      <fieldset>
+        <legend>tell us about yourself</legend>
+        <!-- <p>tell us about yourself</p> -->
+        <label>Your Name:<input type="text" required name="your-name" value=""></label>
+        <label>Your Age:<input type="number" required name="your-age" min="1" max="130" value=""></label>
+      </fieldset>
+      <fieldset>
+        <legend>what would you say, you do here?</legend>
+        <label>Nothing <input type="checkbox" name="do[]" value="nothing"></label>
+        <label>Stuff <input type="checkbox" name="do[]" value="stuff"></label>
+        <label>Drink Coffee <input type="checkbox" name="do[]" value="coffee"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Who is your favorite stooge?</legend>
+        <select class="what-you-do" name="what-you-do">
+          <option value="larry">Larry</option>
+          <option value="curly">Curly</option>
+          <option value="moe">Moe</option>
+        </select>
+      </fieldset>
+
+      <input type="submit" name="submit" value="Submit">
+
+    </form>
+
+  </body>
+</html>
